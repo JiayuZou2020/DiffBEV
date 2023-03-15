@@ -49,4 +49,4 @@ If you find our work is helpful for your research, please consider citing as fol
 
 ## Acknowledgement
 Our work is partially based on the following open-sourced projects: [mmsegmentation](https://github.com/open-mmlab/mmsegmentation), [VPN](https://github.com/pbw-Berwin/View-Parsing-Network), [PYVA](https://github.com/JonDoe-297/cross-view), [PON](https://github.com/tom-roddick/mono-semantic-maps), [LSS](https://github.com/nv-tlabs/lift-splat-shoot). 
-Thanks for their contribution to the research community.
+Thanks for their contribution to the research community of BEV perception.
