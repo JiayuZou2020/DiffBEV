@@ -26,13 +26,12 @@ from .setr_up_head import SETRUPHead
 from .uper_head import UPerHead
 from .pyramid_head import PyramidHead
 from .pyramid_head_kitti import PyramidHeadKitti
-from .diffusion_head import DepthconditionResHead,BEVconditionHead,DepthBEVconditionResHead,ResHead
+
 __all__ = [
     'FCNHead', 'PSPHead', 'ASPPHead', 'PSAHead', 'NLHead', 'GCHead', 'CCHead',
     'UPerHead', 'DepthwiseSeparableASPPHead', 'ANNHead', 'DAHead', 'OCRHead',
     'EncHead', 'DepthwiseSeparableFCNHead', 'FPNHead', 'EMAHead', 'DNLHead',
     'PointHead', 'APCHead', 'DMHead', 'LRASPPHead', 'SETRUPHead','SETRMLAHead', 
     'DPTHead', 'SETRMLAHead', 'SegformerHead', 'ISAHead','PyramidHead',
-    'PyramidHeadKitti','DepthconditionResHead','BEVconditionHead',
-    'DepthBEVconditionResHead','ResHead'
+    'PyramidHeadKitti',
 ]
