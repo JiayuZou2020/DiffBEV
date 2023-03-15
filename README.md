@@ -1,5 +1,7 @@
 # DiffBEV: Conditional Diffusion Model for Bird's Eye View Perception
-Official PyTorch implementation of introducing conditional diffusion model to BEV perception
+<div align="center">
+Official PyTorch implementation for introducing conditional diffusion model to BEV perception
+</div>
 
 ---
 <div align="center">
