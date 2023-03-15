@@ -1,7 +1,7 @@
 # dataset settings
 dataset_type = 'KittiObjectDataset'
 # enter your path of the KITTI 3D Object dataset
-data_root = "YOUR_PATH/kitti_object/"
+data_root = "YOUR_PATH/kitti_processed/kitti_object/"
 img_norm_cfg = dict(
     mean=[123.675, 116.28, 103.53], std=[58.395, 57.12, 57.375], to_rgb=True)
 train_pipeline = [
