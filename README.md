@@ -108,7 +108,7 @@ mim install mmcv-full
 * Git clone this repository
         
 ```python
-https://github.com/JiayuZou2020/DiffBEV.git
+git clone https://github.com/JiayuZou2020/DiffBEV.git
 ```
 
 * Install and compile the required packages.
