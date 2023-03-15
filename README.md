@@ -40,6 +40,10 @@ mim install mmcv-full
 cd mmsegmentation
 pip install -v -e .
 ```
+
+## Visualization
+
+
 ## Citation
 If you find our work is helpful for your research, please consider citing as follows.
 
