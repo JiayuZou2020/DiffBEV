@@ -9,7 +9,7 @@ BEV perception is of great importance in the field of autonomous driving, servin
 Extensive experiments are conducted on the _[nuScenes](https://www.nuscenes.org/download), _[KITTI Raw](https://www.cvlibs.net/datasets/kitti/raw_data.php)_, _[KITTI Odometry](https://www.cvlibs.net/datasets/kitti/eval_odometry.php)_, and _[KITTI 3D Object](https://www.cvlibs.net/datasets/kitti/eval_3dobject.php)_ benchmarks. 
 
 ## Prepare Depth Maps
-Follow the [script](https://github.com/TRAILab/CaDDN/blob/master/pcdet/datasets/kitti/kitti_dataset.py) to generate depth maps for KITTI datasets. The depth maps of KITTI datasets are available at Google Drive and Baidu Net Disk. We also provide the script to get the depth map for nuScenes dataset.
+Follow the [script](https://github.com/TRAILab/CaDDN/blob/master/pcdet/datasets/kitti/kitti_dataset.py) to generate depth maps for KITTI datasets. The depth maps of KITTI datasets are available at Google Drive and Baidu Net Disk. We also provide the [script](https://github.com/JiayuZou2020/DiffBEV/blob/main/scripts/nuS2depth.py) to get the depth map for nuScenes dataset. Replace the dataset path in the script accroding to your dataset directory.
 
 ### Dataset Processing
 After downing these datasets, we need to generate the annotations in BEV. Follow the instructions below to get the corresponding annotations. 
@@ -68,6 +68,7 @@ data
 ### Prepare Calibration Files
 For the camera parameters on each dataset, we write them into the corresponding _calib.json file. For each dataset, we upload the _calib.json to [Google Drive](https://drive.google.com/drive/folders/1Ahaed1OsA1EqlJOCHHN-MQQr2VpF8H7U) and [Baidu Net Disk](https://pan.baidu.com/s/1wEzHWkazS5vLPZJVjpzHMw?pwd=2022#list/path=%2F).
 
+Please change the dataset path according to the real data directory in the _[nuScenes, KITTI Raw, KITTI Odometry, and KITTI 3D Object dataset configurations](https://github.com/JiayuZou2020/DiffBEV/tree/main/configs/_base_/datasets)_. Modify the path of pretrained model in _model configurations_.
 
 ## Installation
 DiffBEV is tested on:
