@@ -81,7 +81,7 @@ data
 ```
 
 ### Prepare Calibration Files
-For the camera parameters on each dataset, we write them into the corresponding _calib.json file. For each dataset, we upload the _calib.json to _[Google Drive](https://drive.google.com/drive/folders/1Ahaed1OsA1EqlJOCHHN-MQQr2VpF8H7U)_ and [Baidu Net Disk](https://pan.baidu.com/s/1wEzHWkazS5vLPZJVjpzHMw?pwd=2022#list/path=%2F).
+For the camera parameters on each dataset, we write them into the corresponding _calib.json file. For each dataset, we upload the _calib.json to _[Google Drive](https://drive.google.com/drive/folders/1Ahaed1OsA1EqlJOCHHN-MQQr2VpF8H7U)_ and _[Baidu Net Disk](https://pan.baidu.com/s/1wEzHWkazS5vLPZJVjpzHMw?pwd=2022#list/path=%2F)_.
 
 Please change the dataset path according to the real data directory in the _[nuScenes, KITTI Raw, KITTI Odometry, and KITTI 3D Object dataset configurations](https://github.com/JiayuZou2020/DiffBEV/tree/main/configs/_base_/datasets)_. Modify the path of pretrained model in _model configurations_.
 
