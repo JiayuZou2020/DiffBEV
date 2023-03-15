@@ -16,11 +16,30 @@ Please prepare the datasets as follows.
 
 ## Installation
 DiffBEV is tested on:
-* Python 3.7
+* Python 3.7/3.8
 * CUDA 11.1
 * Torch 1.9.1
-Please check [install](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/en/get_started.md#installation) for installation.
 
+Please check [install](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/en/get_started.md#installation) for installation.
+* Create a conda environment for the project.
+```python
+conda create -n diffbev python=3.7
+conda activate diffbev
+```
+* Install Pytorch following the [instruction](https://pytorch.org/get-started/locally/).
+`conda install pytorch torchvision -c pytorch`
+* Install [mmcv](https://github.com/open-mmlab/mmcv)
+
+```python
+pip install -U openmim
+mim install mmcv-full
+```
+* Git clone this repository
+* Install and compile the required packages.
+```python
+cd mmsegmentation
+pip install -v -e .
+```
 ## Citation
 If you find our work is helpful for your research, please consider citing as follows.
 
