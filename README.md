@@ -106,6 +106,7 @@ pip install -U openmim
 mim install mmcv-full
 ```
 * Git clone this repository
+`https://github.com/JiayuZou2020/DiffBEV.git`
 * Install and compile the required packages.
 ```python
 cd mmsegmentation
