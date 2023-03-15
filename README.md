@@ -5,11 +5,11 @@ Official PyTorch implementation for introducing conditional diffusion model to B
 
 ---
 <div align="center">
-    <a href='https://github.com/JiayuZou2020/DiffBEV#abstract'>Abstract • 
-    <a href='https://github.com/JiayuZou2020/DiffBEV#dataset'>Dataset • 
-    <a href='https://github.com/JiayuZou2020/DiffBEV#installation'>Installation • 
-    <a href='https://github.com/JiayuZou2020/DiffBEV#visualization'>Visualization • 
-    <a href='https://github.com/JiayuZou2020/DiffBEV#citation'>Citation • 
+    <a href='https://github.com/JiayuZou2020/DiffBEV#abstract'>Abstract
+    <a href='https://github.com/JiayuZou2020/DiffBEV#dataset'>Dataset
+    <a href='https://github.com/JiayuZou2020/DiffBEV#installation'>Installation  
+    <a href='https://github.com/JiayuZou2020/DiffBEV#visualization'>Visualization 
+    <a href='https://github.com/JiayuZou2020/DiffBEV#citation'>Citation
     <a href='https://github.com/JiayuZou2020/DiffBEV#acknowledgement'>Acknowledgement
 </div>
 
