@@ -124,13 +124,11 @@ pip install -v -e .
 ## Citation
 If you find our work is helpful for your research, please consider citing as follows.
 ```
-@misc{d=zou2023diffbev,
+@article{zou2023diffbev,
       title={DiffBEV: Conditional Diffusion Model for Bird's Eye View Perception}, 
       author={Jiayu Zou and Zheng Zhu and Yun Ye and Xingang Wang},
-      year={2023},
-      eprint={2303.08333},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+      journal={arXiv preprint arXiv:2303.08333},
+      year={2023}
 }
 ```
 ## Acknowledgement
