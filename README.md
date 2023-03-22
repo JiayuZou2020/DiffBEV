@@ -129,7 +129,7 @@ If you find our work is helpful for your research, please consider citing as fol
 ```
 @article{zou2023diffbev,
       title={DiffBEV: Conditional Diffusion Model for Bird's Eye View Perception}, 
-      author={Jiayu Zou and Zheng Zhu and Yun Ye and Xingang Wang},
+      author={Jiayu, Zou and Zheng, Zhu and Yun, Ye and Xingang, Wang},
       journal={arXiv preprint arXiv:2303.08333},
       year={2023}
 }
