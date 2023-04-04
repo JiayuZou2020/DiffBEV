@@ -117,7 +117,7 @@ git clone https://github.com/JiayuZou2020/DiffBEV.git
 
 * Install and compile the required packages.
 ```python
-cd mmsegmentation
+cd DiffBEV
 pip install -v -e .
 ```
 
